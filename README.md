@@ -8,5 +8,5 @@ In the project directory, you can run:
 
 ### `yarn start`
 
-### LINK TO app:
+### 'LINK':
 https://resposivetodo.netlify.app/
