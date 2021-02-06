@@ -41,6 +41,9 @@ function App() {
       setActive([...data, old]);
       setTodo("");
       setCheck(false);
+      setNav1(navstyle1);
+      setNav2(navstyle);
+      setNav3(navstyle);
     }
   }
   function Delete(id) {
