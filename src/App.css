@@ -1,0 +1,173 @@
+.input {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  text-align: center;
+  width: 600px;
+  margin-top: 30px;
+}
+
+.input {
+  padding: 40px;
+  background-repeat: no-repeat;
+  background-size: 100% 300px;
+}
+.brand-icon {
+  height: 50px;  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.brand {
+  color: white;
+}
+
+.inputline {
+  margin-top: 50px;
+}
+.output {
+  position:fixed;
+  top: 0px;
+  z-index: -5;
+  width: 100%;
+  height: 100%;
+  background-color:black;
+}
+.output1{
+  margin-top: 20px;
+}
+
+.task {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  justify-content: space-between;
+  padding: 10px;
+  margin-top: 1px;
+}
+.task1 {
+  width: 480px;
+}
+.iconclick{
+  background-image: linear-gradient(hsl(192, 100%, 67%),hsl(280, 87%, 65%));
+  border-radius : 50%;
+  margin-top: 4px;
+
+}
+.bottom{
+  display: flex;
+  justify-content: space-between;
+  width: 600px; height: 50px; margin-top:1px;
+  padding: 5px;
+}
+.bottom2{
+  display: flex;
+  flex-direction: row;
+}
+.bottom2>p{
+  padding: 5px;
+}
+.mobile{
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .input {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header {
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+  }
+  
+  .input {
+    padding: 40px;
+    background-repeat: no-repeat;
+    background-size: 100% 250px;
+ 
+  }
+  .brand-icon {
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .brand {
+    color: white;
+  }
+  
+  .inputline {
+    margin-top: 50px;
+  }
+  .output {
+    position:fixed;
+    top: 0px;
+    z-index: -5;
+    width: 100%;
+    height: 1000px;
+    background-color:black;
+  }
+  .output1{
+    margin-top: 20px;
+  }
+
+  .input {
+    width: 410px;
+    padding: 20px;
+  }
+  .task {
+    display: flex;
+    flex-direction: row;
+    width: 392px;
+    justify-content: space-between;
+    margin-top: 1px;
+    padding: 10px;
+  }
+  .task1 {
+    margin-left: 0px;
+    width: 250px;
+  }
+  .bottom{
+    display: none;
+    justify-content: space-between;
+    width: 100%;
+     height: 50px; margin-top:40px;
+    padding: 10px;
+  }
+  .bottom2{
+    display: flex;
+    flex-direction: row;
+    
+  }
+  .bottom2>p{
+    padding: 5px;
+  }
+  .mobile{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2px;
+  }
+  .mobilebottom{
+    display: flex;
+    flex-direction: row;
+    width: 392px;
+    height: 60px;
+    padding-top: 18px;
+    border-radius: 0px 0px 10px 10px;
+    justify-content: space-around;
+  }
+  .mobilebottom1{
+    width: 390px;
+    height: 60px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding-top: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
